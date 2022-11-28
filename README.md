@@ -1,1 +1,1 @@
-# Hangman-1
+# Hangman_Project
