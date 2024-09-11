@@ -1,5 +1,6 @@
 import random
 
+
 print("Welcome to Hangman!")
 print("------------------------------------------")
 
@@ -9,13 +10,9 @@ word = random.choice(word_list)
 
 guess = input("Please enter a letter: ")
 
-# making sure "guess" equals to 1 and is alphabetical
-if len(guess) == 1 and guess.isalpha() :
-  print("Good Guess!")
+while len(guess) == 1 and guess.isalpha() :
+    break
 else :
-  print("Oops! That's not a valid input.") 
- 
+    print("Invalid letter. Please, enter a single alphabetical character.")
 
-
-
-
+    
